@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'MyShop',
         theme: theme.copyWith(
-          // primaryColor: Colors.purple,
+          primaryColor: Colors.purple,
           colorScheme: theme.colorScheme.copyWith(
             primary: Colors.purple,
             secondary: Colors.deepOrange,
